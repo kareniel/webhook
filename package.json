@@ -1,0 +1,29 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "continous deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=1234 node index.js",
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/webhook.git"
+  },
+  "keywords": [
+    "continuous",
+    "deployment"
+  ],
+  "author": "Jonathan Dupré",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kareniel/webhook/issues"
+  },
+  "homepage": "https://github.com/kareniel/webhook#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-x-hub": "^1.0.4"
+  }
+}
