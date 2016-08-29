@@ -24,7 +24,7 @@ app.post("/", (req, res) => {
     case "push":
       res.send("Event push trigger")
 
-			const deploy = exec('sh ./deploy.sh' )
+			const deploy = exec('bash ' + __dirname + '/deploy.sh' )
 
 			deploy.stdout.on('data', res => {
 			    console.log(res)

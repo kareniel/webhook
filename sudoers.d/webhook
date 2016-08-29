@@ -1,0 +1,1 @@
+%LimitedAdmins ALL=NOPASSWD: /bin/systemctl restart
