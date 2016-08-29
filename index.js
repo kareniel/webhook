@@ -16,7 +16,7 @@ const server = app.listen(port, host, () => {
   )
 })
 
-app.post("/webhook", (req, res) => {
+app.post("/", (req, res) => {
 
   console.log(req)
 
